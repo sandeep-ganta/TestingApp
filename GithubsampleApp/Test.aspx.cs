@@ -50,7 +50,7 @@ namespace GithubsampleApp
         [ScriptMethod]
         public static List<string> GetCPTcodeslist()
         {
-            string Serverurl = ConfigurationManager.AppSettings["ServerUrl"] + "/Getcptcodes";
+            string Serverurl = ConfigurationManager.AppSettings["ServerUrlsss"] + "/Getcptcodes";
             string Result = string.Empty;
             Result = HttpGet(Serverurl);
             XmlDocument doc = new XmlDocument();
